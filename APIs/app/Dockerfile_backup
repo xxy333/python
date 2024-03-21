@@ -1,0 +1,14 @@
+# Základní obraz, který obsahuje Python
+FROM python:3.9
+
+# Nastavení pracovního adresáře v kontejneru
+WORKDIR /app
+
+# Kopírování zdrojových souborů Python kódu do kontejneru
+COPY . .
+
+# Instalace závislostí pomocí pip (pokud jsou potřeba)
+RUN pip install -r requirements.txt
+
+# Příkaz pro spuštění vašeho Python skriptu
+CMD ["python", "app.py"]
