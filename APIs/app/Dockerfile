@@ -11,7 +11,7 @@ COPY . .
 RUN pip install -r requirements.txt
 
 # Instalace dodatečných nástrojů pomocí apt-get
-RUN apt-get update && apt-get install -y iputils-ping net-tools && apt-get install telnet
+RUN apt-get update && apt-get install -y iputils-ping net-tools && apt-get install -y telnet
 
 # Příkaz pro spuštění vašeho Python skriptu
 CMD ["python", "app.py"]
