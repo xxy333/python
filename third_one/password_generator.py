@@ -1,11 +1,16 @@
 import random
 import string
 
-def generate_password(length):
-    characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choice(characters) for _ in range(length))
+
+
+
+
+def password_generator(length):
+    signs = string.ascii_letters + string.digits + string.punctuation
+    password = "".join(random.choice(signs) for _ in range(length))
     return password
 
-# Příklad použití: Generuj heslo o délce 12 znaků
-password = generate_password(12)
-print(password)
+
+
+password = password_generator(12)
+print(f"{password}")
