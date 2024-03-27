@@ -13,4 +13,4 @@ def save_data():
     return jsonify({"message" : "Data uložena", "id" : str(result.inserted_id)}), 201
 
 
-app.run(debug=True)
+app.run(host="localhost", port="8000", debug=True)
