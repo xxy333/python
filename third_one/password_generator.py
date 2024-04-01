@@ -8,10 +8,22 @@ def password_generator(length):
     return password_generate
 
 
-add_variable = input("Zadejte počet znaků pro heslo: ")
-add_variable_int = int(add_variable)
+
+
+while True:
+    try:
+        add_variable = input("Zadejte počet znaků pro heslo: ")
+        add_variable_int = int(add_variable)
+        password = password_generator(add_variable_int)
+        print(password)
+        break
+
+    except ValueError:
+        print("Zadal jste neplatnou hodnotu")
+        quit()
 
 
 
-password = password_generator(add_variable_int)
-print(password)
+
+
+
