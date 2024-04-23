@@ -1,14 +1,7 @@
-year = int(input("Zadejte jaký rok chcete zkontrlovat: "))
+import dataclasses
+class humans:
+    def __init__(self, age, name, country):
+        self.age = age
+        self.name = name
+        self.country = country
 
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("jedná se přestupný rok")
-        else:
-            print("Nejedný se o přestupný rok")
-
-    else:
-        print("Jedná se o přestupný rok")
-
-else:
-    print("nejedná se o přestupný rok")

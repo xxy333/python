@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Students:
     name: str
@@ -33,10 +34,3 @@ for i, student_instances in enumerate(student_list):
     print("Jméno: ", student_instances.name)
     print("Věk: ", student_instances.age)
     print("Město: ", student_instances.city)
-
-
-
-
-
-
-
