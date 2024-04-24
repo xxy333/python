@@ -1,6 +1,7 @@
-from website import create_app
+def hello():
+    print("Ahoj")
 
-app = create_app()
+def hello_2():
+        print("Ahoj")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+print(hello())
