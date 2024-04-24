@@ -8,9 +8,9 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [ "xxy/python-project" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "xxy/python-project" ]
+    branches: [ "main" ]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
