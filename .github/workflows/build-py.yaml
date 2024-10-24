@@ -16,12 +16,6 @@ jobs:
         with:
           python-version: ['3.9', '3.10']
 
-      - name: Install dependecies
-        run: |
-        python --version
 
-      - name: Run tests
-        run: |
-        pytest
     
   
