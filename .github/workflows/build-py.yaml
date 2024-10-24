@@ -16,7 +16,7 @@ jobs:
         
       - name: Lib check
         run: |
-          apt-get python3
+          apt-get install python
           env | grep python
 
 
