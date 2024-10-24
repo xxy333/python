@@ -10,5 +10,4 @@ jobs:
 
     steps:
       - name: running action
-        run: |
-        ls -laF
+        run: ls -laF
