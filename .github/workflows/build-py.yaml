@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-python@v5.3.0
 
       - name: Instaling Libs
-         run: |
+        run: |
            python3 -m pip install --upgrade pip
            pip install -r requirements.txt
                 
