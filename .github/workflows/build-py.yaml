@@ -7,7 +7,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
+    services:
+      mongo:
+        image: mongo:latest
+        ports:
+          - 27017:27017
     steps:
       - name: CheckoutCode
         uses: actions/checkout@v4.2.2
@@ -30,6 +35,9 @@ jobs:
       - name: Configuration for App start
         run: |
            ls -laF
+      - name: Enviroment configuration
+        env: 
+          MONGO_URL: "mongodb://localhost:27017"
       - name: Running Python application
         run: | 
            nohup python APIs.py
