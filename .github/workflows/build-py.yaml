@@ -38,7 +38,9 @@ jobs:
       - name: Enviroment configuration and App run
         env: 
           MONGO_URL: "mongodb://localhost:27017"
-        run: python APIs.py
+        run: |
+          python APIs.py
+          sleep 5
                 
 
 
