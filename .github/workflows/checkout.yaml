@@ -9,7 +9,7 @@ jobs:
 
     steps:
       -  name: output config
-         uses: Checkout/@v4.2.2
+         uses: actions/Checkout@v4.2.2
 
       -  name: listing directory
          run: |
