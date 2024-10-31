@@ -29,8 +29,8 @@ jobs:
 
       - name: Configuration for App start
         run: |
-           cp ./APIs.py /home/runner/work/python/python/APIs.py
-           cd /home/runner/work/python/python/
+#           cp ./APIs.py /home/runner/work/python/python/APIs.py
+#           cd /home/runner/work/python/python/
            ls -laF
 
       - name: Running Python application
