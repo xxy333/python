@@ -41,6 +41,14 @@ jobs:
         run: |
           python APIs.py
           sleep 5
+      - name: Run API tests
+        run: |
+          pytest tests/test_api.py
+          sleep 5
+      - name: Stop the API
+        run: |
+          pkill -f APIs.py
+      
                 
 
 
