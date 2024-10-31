@@ -15,5 +15,5 @@ jobs:
          run: |
                cd ./.github/workflows
                ls -laF
-               python -version
+               python3 -v
     
