@@ -23,11 +23,12 @@ jobs:
            echo "pytest==7.4.0" >> requirements.txt
            echo "flask==2.3.3" >> requirements.txt
            echo "requests==2.31.0 >> requirements.txt"
+           echo "pymongo==4.5.0 >> requirements.txt"
            cat requirements.txt
            pip install -r requirements.txt
-      - name: Python version
+      - name: Running Python application
         run: | 
-           env | grep python && echo $PATH
+           nohup python APIs.py
                 
 
 
