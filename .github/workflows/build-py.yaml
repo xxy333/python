@@ -23,6 +23,9 @@ jobs:
            echo "requests==2.31.0 >> requirements.txt"
            cat requirements.txt
            pip install -r requirements.txt
+      - name: Python version
+        run: | 
+           env | grep python && echo $PATH
                 
 
 
