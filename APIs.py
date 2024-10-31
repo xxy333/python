@@ -3,8 +3,8 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-db_server = MongoClient(mongodb://localhost:27017/)
-db = db_server[mydatabase]
+db_server = MongoClient("mongodb://localhost:27017/")
+db = db_server["mydatabase"]
 
 
 @app.route(/send_new_data, methods = [POST])
