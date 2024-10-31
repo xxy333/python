@@ -1,0 +1,6 @@
+body.div {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-color: 1px black;
+}
