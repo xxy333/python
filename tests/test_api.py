@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:5000"  # Adjust if your API runs on a different port
+BASE_URL = "http://localhost:8080"  # Adjust if your API runs on a different port
 
 def test_homepage():
     response = requests.get(f"{BASE_URL}/")
