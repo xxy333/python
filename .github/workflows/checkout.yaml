@@ -13,6 +13,6 @@ jobs:
 
       -  name: listing directory
          run: |
-               cd ./github/workflows
+               cd ./.github/workflows
                ls -laF
     
