@@ -13,11 +13,6 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v5.3.0
-        
-      - name: Lib check
-        run: |
-          apt-get install python
-          env | grep python
 
 
     
