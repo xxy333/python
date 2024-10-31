@@ -1,0 +1,17 @@
+name: CI/CD pipeline
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      -  name: output config
+         uses: Checkout/@v4.2.2
+
+      -  name: listing directory
+         run: |
+               ls -laF
+    
