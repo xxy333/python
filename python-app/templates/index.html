@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Greeting</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter your name</h1>
+        <input type="text" id="nameInput" placeholder="Your name here">
+        <button onclick="sendName()">Submit</button>
+        <p id="greetingMessage"></p>
+    </div>
+
+    <script>
+        async function sendName() {
+            const name = document.getElementById('nameInput').value;
+            const response = await fetch('/greet', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: name })
+            });
+            const result = await response.json();
+            document.getElementById('greetingMessage').innerText = result.message;
+        }
+    </script>
+</body>
+</html>
