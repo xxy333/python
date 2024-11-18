@@ -1,12 +1,21 @@
-import requests
+import pytest
+from APIs import app  # Import your Flask app
 
-BASE_URL = "http://localhost:8080"  # Adjust if your API runs on a different port
+@pytest.fixture
+def client():
+    # Set up a test client
+    with app.test_client() as client:
+        yield client  # This will be the test client
 
-def test_homepage():
-    response = requests.get(f"{BASE_URL}/")
+def test_send_data(client):
+    # Test the /send_new_data endpoint
+    response = client.post('/send_new_data', json={'key': 'value'})
+    assert response.status_code == 201
+    assert response.json['message'] == 'Data successfully sent!'
+    assert 'id' in response.json  # Check if 'id' is returned
+
+def test_return_data(client):
+    # Test the /data_callback endpoint
+    response = client.get('/data_callback')
     assert response.status_code == 200
-
-def test_api_endpoint():
-    response = requests.get(f"{BASE_URL}/your-endpoint")
-    assert response.status_code == 200
-    assert response.json() == {"key": "expected_value"}  # Adjust based on your API response
+    assert response.data.decode() == 'Ha, provolal jsi mě!'  # Check the response content
