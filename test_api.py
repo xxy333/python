@@ -18,4 +18,4 @@ def test_return_data(client):
     # Test the /data_callback endpoint
     response = client.get('/data_callback')
     assert response.status_code == 200
-    assert response.data.decode() == 'Ha, provolal jsi mě!'  # Check the response content
+    assert response.data.decode() == 'API test sucessfull'  # Check the response content
