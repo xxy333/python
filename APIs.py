@@ -16,7 +16,7 @@ def send_data():
 
 @app.route('/data_callback', methods=['GET'])  # Corrected route syntax
 def return_data():
-    return jsonify({"message": "Ha, provolal jsi mě!"})  # JSON response formatting
+    return jsonify({"message": "API test sucessfull"})  # JSON response formatting
 
 if __name__ == '__main__':  # Corrected main check
     app.run(host='localhost', port=8080, debug=True)  # Corrected host parameter
