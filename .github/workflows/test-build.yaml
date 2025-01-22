@@ -1,7 +1,7 @@
 name: Runner test CI/CD
 on:
   push:
-    branches: ["main"]
+    branches: ["xxy/python"]
 
 jobs:
   build:
