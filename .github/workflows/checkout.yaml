@@ -1,0 +1,19 @@
+name: CI/CD pipeline
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      -  name: output config
+         uses: actions/Checkout@v4.2.2
+
+      -  name: listing directory
+         run: |
+               cd ./.github/workflows
+               ls -laF
+               python3 -v
+    

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="742ef4b6-ad7f-46cb-a1d6-7fa8f89f4a63" name="Changes" comment="New projects">
+      <change afterPath="$PROJECT_DIR$/data_db_app/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_db_app/first_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_db_app/second_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/flask-API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_one/python/WebAPI_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third_one/python/fibinaaci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_one/WebAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_one/WebAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_one/python" beforeDir="false" afterPath="$PROJECT_DIR$/third_one/python" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;xxy333&quot;,
+      &quot;reviewState&quot;: &quot;APPROVED&quot;,
+      &quot;label&quot;: &quot;enhancement&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xxy333&quot;,
+    &quot;reviewState&quot;: &quot;APPROVED&quot;,
+    &quot;label&quot;: &quot;enhancement&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:xxy333/python.git&quot;,
+    &quot;accountId&quot;: &quot;151b06d6-e727-493c-8382-ddb9362bb2f1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/third_one/number_generator.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eHRux6cMwFKUjF1gMz0Xb1gHlT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.APIs-new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.APIs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebAPI_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.age_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator_2.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.called.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codewars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codewars_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codewars_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codewars_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codewars_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataclass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.date_validate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.experiment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibinaaci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.files.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.key-search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.object-advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.object_work.executor&quot;: &quot;Run&quot;,
+    &quot;Python.objects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password-generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prestupny_rok.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problems.executor&quot;: &quot;Run&quot;,
+    &quot;Python.second_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/equiv/Desktop/py-projet/visual_code/APIs/caller.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\equiv\Desktop\py-projet\third_one\codewars" />
+      <recent name="C:\Users\equiv\Desktop\py-projet\demo\myapp" />
+      <recent name="C:\Users\equiv\Desktop\py-projet\third_one" />
+      <recent name="C:\Users\equiv\Desktop\py-projet\third_one\python" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="called" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py-projet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_code/APIs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_code/APIs/called.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="caller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py-projet" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visual_code/APIs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visual_code/APIs/caller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.caller" />
+        <item itemvalue="Python.called" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="742ef4b6-ad7f-46cb-a1d6-7fa8f89f4a63" name="Changes" comment="" />
+      <created>1711559744106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711559744106</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New projects">
+      <option name="closed" value="true" />
+      <created>1711567034420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711567034420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New projects">
+      <option name="closed" value="true" />
+      <created>1711567058083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711567058083</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New projects">
+      <option name="closed" value="true" />
+      <created>1712006431009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712006431009</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Objects, classes etc.">
+      <option name="closed" value="true" />
+      <created>1712061152975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712061152975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Objects, classes etc.">
+      <option name="closed" value="true" />
+      <created>1712065260520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712065260520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Objects, classes etc.">
+      <option name="closed" value="true" />
+      <created>1712218865554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712218865554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New projects">
+      <option name="closed" value="true" />
+      <created>1717089004050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717089004050</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Objects, classes etc." />
+    <MESSAGE value="New projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="New projects" />
+  </component>
+</project>

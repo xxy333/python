@@ -1,0 +1,14 @@
+name: Runner test CI/CD
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  runner_test:
+    runs-on: self-hosted
+
+    steps:
+      - name: StdOUT
+        run: |
+              echo "Hello world!"
