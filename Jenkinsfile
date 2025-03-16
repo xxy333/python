@@ -2,8 +2,7 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        // You can define environment variables here if needed
-        // E.g., MAVEN_HOME = "/path/to/maven"
+        MAVEN_HOME = "/path/to/maven"
     }
 
     stages {
