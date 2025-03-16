@@ -21,7 +21,10 @@ pipeline {
                 // Replace with the appropriate build tool for your project
                 script {
                     echo 'Building the project...'
-                    sh 'mvn clean install'  // Adjust this based on your build system (e.g., Maven, Gradle, etc.)
+                    sh """
+                    echo "Hello world"
+                    npm install
+                    """
                 }
             }
         }
