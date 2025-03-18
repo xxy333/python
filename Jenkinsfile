@@ -2,7 +2,8 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        MAVEN_HOME = "/path/to/maven"
+        Jenkinse_username = credentials('jenkinse-credentials-id')
+        Jenkinse_password = credentials('jenkinse-credentials-id')
     }
 
     stages {
@@ -23,6 +24,7 @@ pipeline {
                     echo 'Building the project...'
                     sh """
                     echo "Hello world"
+                    echo "Connecting to artifactory with username: ${Jenkinse_username} and with password ${Jenkinse_password}"
                     """
                 }
             }
