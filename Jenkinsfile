@@ -23,8 +23,8 @@ pipeline {
                 script {
                     echo 'Building the project...'
                     sh """
-                    echo "Hello world"
-                    echo "Connecting to artifactory with username: ${Jenkinse_username} and with password ${Jenkinse_password}"
+                    echo 'Hello world
+                    echo 'Connecting to artifactory with username: ${Jenkinse_username} and with password ${Jenkinse_password}'
                     """
                 }
             }
