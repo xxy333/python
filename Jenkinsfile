@@ -2,8 +2,8 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        Jenkinse_username = credentials('jenkinse-credentials')
-        Jenkinse_password = credentials('jenkinse-credentials')
+        JENKINS_CREDENTIALS = credentials('jenkinse-credentials')
+
     }
 
     stages {
@@ -24,7 +24,7 @@ pipeline {
                     echo 'Building the project...'
                     sh """
                     echo 'Hello world
-                    echo 'Connecting to artifactory with username: ${Jenkinse_username} and with password ${Jenkinse_password}'
+                    echo 'Connecting to artifactory with username: ${JENKINS_CREDENTIALS_USR} and with password ${JENKINS_CREDENTIALS_PSW}'
                     """
                 }
             }
