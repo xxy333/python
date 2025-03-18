@@ -2,8 +2,8 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        Jenkinse_username = credentials('jenkinse-credentials-id')
-        Jenkinse_password = credentials('jenkinse-credentials-id')
+        Jenkinse_username = credentials('jenkinse-credentials')
+        Jenkinse_password = credentials('jenkinse-credentials')
     }
 
     stages {
