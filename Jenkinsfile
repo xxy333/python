@@ -23,31 +23,7 @@ pipeline {
                     echo 'Building the project...'
                     sh """
                     echo "Hello world"
-                    npm install
                     """
-                }
-            }
-        }
-
-        // Stage 3: Run tests
-        stage('Test') {
-            steps {
-                // Example with Maven: mvn test
-                // Adjust based on your testing framework
-                script {
-                    echo 'Running tests...'
-                    sh 'mvn test'  // Run tests with Maven, adjust based on your setup
-                }
-            }
-        }
-
-        // Stage 4: Deploy to a staging environment (example)
-        stage('Deploy') {
-            steps {
-                script {
-                    echo 'Deploying to staging...'
-                    // Replace with your deployment command or script
-                    sh './deploy.sh'  // Adjust based on how your deployment works (e.g., Kubernetes, Docker, etc.)
                 }
             }
         }
