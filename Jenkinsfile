@@ -24,7 +24,7 @@ pipeline {
                     echo 'Building the project...'
                     sh """
                     echo 'Hello world
-                    echo 'Connecting to artifactory with username: ${JENKINS_CREDENTIALS_USR} and with password ${JENKINS_CREDENTIALS_PSW}'
+                    echo 'Connecting to artifactory with username: $JENKINS_CREDENTIALS_USR and with password $JENKINS_CREDENTIALS_PSW'
                     """
                 }
             }
